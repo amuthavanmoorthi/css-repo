@@ -1,0 +1,31 @@
+/* This is universal selector */
+
+/* *{
+    color: azure;
+    background-color: black;
+} */
+
+/* This is element selector */
+
+/* h1{
+    color: black;
+}
+
+/* This is grouping */
+
+/* h1,h2,p{
+    color: ;
+}  */
+
+/* This is class */
+ .welcome{
+    color: aqua;
+} 
+
+/* This is id */
+/* #welcome{
+    color: aqua;
+} */
+
+/* We cannot give multiple id  */
+
