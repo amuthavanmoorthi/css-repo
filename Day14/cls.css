@@ -1,0 +1,33 @@
+.main_div{
+    background-color: aquamarine;
+    color: black;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    min-width: 10px;
+    max-width: 1080px;
+    border-style: dotted;
+    border-style: solid black 10px;
+
+    /* margin 0 auto wil not work in div when we give picture */
+}
+.sec{
+    height: 20px;
+    width: 30px;
+    background-color: blueviolet;
+}
+
+.pic{
+    background-color: blue;
+}
+
+div+h1{
+    color: green;
+}
+.select>h2{
+    color: yellow;
+}
+.selectors_ h2{
+    color: pink;
+}
