@@ -1,0 +1,68 @@
+<style>
+    *{
+        margin: 0 auto;
+        background-color: rgb(101, 20, 36);
+    }
+    .pas_tab{
+        height: 500px;
+        width: 500px;
+    }
+    .but1{
+        padding-right: 110px;
+        margin-right: 300px;
+        margin-left: 540px;
+        padding-left: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: black;
+        background-color: white;
+        font-weight: bold;
+    }
+    .crim{
+        background-color: white;
+    }
+    .tab{
+        color: white;
+    }
+</style>
+    <table class="pas_tab">
+
+        <tr><td>
+    <label class="tab">Name:</label></td>
+    <td><input type="text" placeholder="Your name" class="crim"><br>
+</td></tr>
+
+        <tr><td>
+    <label class="tab">Mail:</label></td>
+    <td><input type="email" placeholder="Your email" class="crim"><br></td></tr>
+    
+        <tr><td>
+    <label class="tab">Password:</label></td><td>
+    <input type="password" placeholder="Your password" class="crim"><br></td></tr>
+   
+        <tr><td>
+    <label class="tab">Phone No:</label></td><td>
+    <input type="tel" placeholder="Your Number" class="crim"><br></td></tr>
+    
+        <tr><td>
+    <label class="tab">Gender:</label></td><td>
+    <input type="radio" id="gender" name="gender" value="male" class="tab">Male
+    <input type="radio" id="gender" name="gender" value="female" class="tab">Female
+    <input type="radio" id="gender" name="gender" value="other" class="tab">Others<br></td></tr>
+   
+        <tr><td>
+    <label class="tab">Language:</label></td><td>
+    <select class="crim"><option>Select Language</option>
+    <option>Tamil</option>
+<option>English</option></select><br></td></tr>
+
+    <tr><td>
+<label class="tab">Zip code:</label></td><td>
+    <input type="text" class="crim"><br></td></tr>
+   
+        <tr><td>
+    <label class="tab">About :</label></td><td>
+    <textarea placeholder="Write about yourself" class="crim"></textarea><br></td></tr>
+   
+</table>
+    <button class="but1">Register</button>
