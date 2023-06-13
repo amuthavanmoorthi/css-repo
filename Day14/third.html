@@ -1,0 +1,53 @@
+<style>
+    .c1{
+        width: 800px;
+        height: 40px;
+        background-color: white;
+    }
+    .head{
+        text-align: center;
+    }
+    .c2{
+        width: 800px;
+        height: 100px;
+        background-color: white;
+    }
+    .reg_button{
+        width: 800px;
+        height: 40px;
+        background-color: green;
+        color: white;
+    }
+    *{
+        background-color: skyblue;
+    }
+</style>
+
+
+<h1 class="head">Student Registration Form</h1><hr class="hari"><br>
+<form>
+    <label>First Name :</label><br>
+    <input type="text" class="c1"><br><br>
+    <label>Middle Name :</label><br>
+    <input type="text" class="c1"><br><br>
+    <label>Last Name :</label><br>
+    <input type="text" class="c1"><br><br>
+    <label>Course :</label>
+    <select><option>Course</option></select><br><br>
+    <label>Gender</label>
+    <input type="radio" id="gender" name="gender" value="male">Male
+    <input type="radio" id="gender" name="gender" value="female">Female
+    <input type="radio" id="gender" name="gender" value="other">Others <br><br>
+    <label>Phone :</label><br>
+    <input type="text" placeholder="+91" value="+91" class="c1"><br><br>
+    <input type="text" placeholder="Enter your phone number" class="c1"><br><br>
+    <label>Current Address :</label><br>
+    <textarea class="c2" placeholder="Current Address"></textarea><br><br>
+    <label>Email</label><br>
+    <input type="email" placeholder="Enter your email" class="c1"><br><br>
+    <label>Password</label><br>
+    <input type="password" placeholder="Enter your password" class="c1"><br><br>
+    <label>Re-type Password</label><br>
+    <input type="password" placeholder="Enter your password again" class="c1"><br><br>
+    <button class="reg_button">Register</button>
+</form>
