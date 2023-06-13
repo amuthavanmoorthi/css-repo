@@ -1,0 +1,147 @@
+<style>
+    *{
+        background-color: rgb(189, 76, 76);
+    }
+    .tab{
+        color: white;
+    }
+    .tab1{
+        background-color: white;
+    }
+    h1{
+        color: white;
+    }
+    .but2{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: chartreuse;
+        border-style: none;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .but3{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color:blueviolet;
+        border-style: none;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+</style>
+<h1 align="center">Student Registration Form Using Table in HTML</h1>
+<table class="pas_tab" align="center">
+    <tr>
+        <td>
+            <label class="tab">First Name:</label>
+        </td>
+        <td>
+            <input type="text" placeholder="Amudhavan" class="tab1">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="tab">Last Name:</label>
+        </td>
+        <td>
+            <input type="text" placeholder="Moorthy" class="tab1"><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="tab">Email Id:</label>
+        </td>
+        <td>
+            <input type="text" placeholder="amuthavnxxxxxxxxxxx" class="tab1"><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="tab">Mobile Number:</label>
+        </td>
+        <td>
+            <input type="text" placeholder="75581xxxxx" class="tab1"><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="tab">Gender:</label></td>
+            <td class="tab">
+                <input type="radio" id="gender" name="gender" value="male" class="tab">Male
+                <input type="radio" id="gender" name="gender" value="female" class="tab">Female
+                <input type="radio" id="gender" name="gender" value="other" class="tab">Others
+            </td>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="tab">Date of Birth (DOB):</label>
+        </td>
+        <td><select class="tab">
+            <option class="tab1">Day</option>
+            <option >13</option>
+        </select>
+        <select class="tab">
+            <option class="tab1">Month</option>
+            <option>June</option>
+        </select>
+        <select class="tab">
+            <option class="tab1">Year</option>
+            <option>2023</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td><label class="tab">Addrress:</label></td>
+        <td><textarea class="tab1"></textarea></td>
+    </tr>
+    <tr>
+        <td><label class="tab">City:</label></td>
+        <td><input type="text" placeholder="Trichy" class="tab1"></td>
+    </tr>
+    <tr>
+        <td><label class="tab">Pincode:</label></td>
+        <td><input type="text" placeholder="6210XX" class="tab1"></td>
+    </tr>
+    <tr>
+        <td><label class="tab">State:</label></td>
+        <td><input type="text" placeholder="TamilNadu" class="tab1"></td>
+    </tr>
+    <tr>
+        <td><label class="tab">Country:</label></td>
+        <td><input type="text" placeholder="India" class="tab1"></td>
+    </tr>
+    <tr>
+        <td><label class="tab">Hobbies:</label></td>
+        <td class="tab"><input type="checkbox">Drawing
+            <input type="checkbox">Hocky 
+            <input type="checkbox">Football
+            <input type="checkbox">Editing<br>
+            <input type="checkbox">Others
+            <input type="text" placeholder="Ex-Edting" class="tab1"><br><br>
+        </td>
+    </tr>
+    <tr>
+        <td><label class="tab">Qualification:</label></td>
+        <td class="tab"><input type="checkbox">High School(10th)<br>
+            <input type="checkbox">Higher School(12th)<br>
+            <input type="checkbox">Graduation(Bechalor's)<br>
+            <input type="checkbox">Post Graduation(Masters)<br>
+            <input type="checkbox">Phd<br><br>
+        </td>
+    </tr>
+    <tr>
+        <td><label class="tab">Course Applied For:</label></td>
+        <td class="tab"><input type="checkbox">AI<br>
+            <input type="checkbox">Data Science<br>
+            <input type="checkbox">Robotics<br>
+            <input type="checkbox">Full Stack<br>
+            <input type="checkbox">Machine Learning
+        </td>
+    </tr>
+    <tr><td colspan="2">
+    <button class="but2">Submit</button>    <button class="but3">Reset</button>
+</td></tr>
+</table>
