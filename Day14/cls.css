@@ -31,3 +31,6 @@ div+h1{
 .selectors_ h2{
     color: pink;
 }
+p{
+    text-emphasis:'*'blue;''
+}

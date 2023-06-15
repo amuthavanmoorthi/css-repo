@@ -1,0 +1,32 @@
+.i{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin-right: 350px;
+}
+.bg{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iq{
+    color: white;
+    font-size: 17px;
+    margin-left: 90px;
+}
+.young{
+    margin-left: 400px;
+    margin-top: 200px;
+    font-size: 30px;
+}
+.iz{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+.link{
+    padding: 15px;
+    margin-left: 300px;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}

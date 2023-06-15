@@ -1,0 +1,36 @@
+#{
+    background: border-box yellow fixed url("image") no-repeat 0 50%;
+    background: border-box yellow scroll url("image") no-repeat 0 50%;
+padding: 100px;
+background-origin: content-box;
+background-origin: padding-box;
+background-origin: border-box;
+
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+/* linear 
+radial
+conical */
+
+background-image:linear-gradient(to right, blue,black);
+background-image:linear-gradient(to right top, blue,black);
+
+background-image: repeating-linear-gradient(60deg,red blue green);
+
+background-image:radial-gradient(to right, blue,black);
+background-image:repeating-radial-gradient(60deg,red blue green);
+
+background-image: radial-gradient(circle at 70%, blue green red);
+
+background-image: radial-gradient(farthest-side at 60% 20%, blue green pink);
+
+background-image: radial-gradient(closest-side at 60% 20%, blue green pink);
+
+background-image: conic-gradient(aqua, yellow, red);
+
+background-image: repeating-conic-gradient(aqua 0deg 20deg, yellow 8deg 18deg, red 8deg 98deg);
+border-radius: 50%;
+
+}

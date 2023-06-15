@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .c1{
+            border-style:double;
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            font-size: 40px;
+            padding-right: -10px;
+            padding-right: -10px;
+            background-color: white;
+          }
+          .c2{
+            padding-left: 5px;
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            background-color: white;
+          }
+          .c3{
+            padding-left: 5px;
+            padding-top: 10px;
+            padding-right: 50px;
+            padding-bottom: 10px;
+            background-color: white;
+          }
+          .c4{
+            width: 260px;
+            background-color: white;
+          }
+          .c5{
+            background-color: white;
+          }
+          .c6{
+            height: 550px;
+            width: 1000px;
+          }
+          *{
+            background-color:aqua;
+          }
+          
+    </style>
+</head>
+<body>
+    <h1 class="c1">Student Registration Form</h1>
+    <table class="c6">
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text"  class="c5"></td>
+        </tr>
+        <tr>
+            <td><label>Father's Name:</label></td>
+            <td><input type="text"  class="c5"></td>
+        </tr>
+        <tr>
+            <td><label>Mother's Name:</label></td>
+            <td><input type="text"  class="c5"></td>
+        </tr>
+        <tr>
+            <td><label>Phone Number:</label></td>
+            <td><input type="tel"  class="c5"></td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email"  class="c5"></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td><input type="radio" name="gender" id="gender" value="Male">Male
+                <input type="radio" name="gender" id="gender" value="Female">Femaale
+                <input type="radio" name="gender" id="gender" value="Others">Others</td>
+        </tr>
+        <tr>
+            <td><label>Date of Birth :</label></td>
+            <td><button class="c2">   </button> -
+                <button class="c2">   </button> -
+                <button class="c3">   </button> <i>(dd-mm-yyyy)</i>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Address :</label></td>
+            <td><input type="text" placeholder="Street-  House- Road-" class="c4"></td>
+        </tr>
+        <tr>
+            <td><label>Department :</label></td>
+            <td><input type="radio" name="department" id="department" value="EEE">EEE
+                <input type="radio" name="department" id="department" value="BE">BE
+                <input type="radio" name="department" id="department" value="ECE">ECE</td>
+        </tr>
+        <tr>
+            <td><label>Course :</label></td>
+            <td><input type="checkbox" name="course" id="course" value="JAVA">JAVA
+                <input type="checkbox" name="course" id="course" value="PYTHON">PYTHON
+                <input type="checkbox" name="course" id="course" value="ROBOTICS">ROBOTICS
+                <input type="checkbox" name="course" id="course" value="DS">DS
+                <input type="checkbox" name="course" id="course" value="AI">AI
+            </td>
+        </tr>
+        <tr>
+            <td><label>Photo:</label></td>
+            <td><input type="file"></td>
+        </tr>
+    </table>
+    <button  class="c5">Submit</button><button  class="c5">Reset</button>
+</body>
+</html>

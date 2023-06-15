@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chartreuse;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+h2{
+    font-family: inherit;
+    color: aqua;
+    font-size: 10vh;
+    font-size: 10vw;
+}
