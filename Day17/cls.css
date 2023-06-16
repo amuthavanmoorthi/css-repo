@@ -34,3 +34,18 @@ background-image: repeating-conic-gradient(aqua 0deg 20deg, yellow 8deg 18deg, r
 border-radius: 50%;
 
 }
+button{
+    want to give pic in button
+
+    background-image:url("pic");
+
+}
+each corner in pic
+{
+    border-image: url() 50;
+    border:10px dotted transparent;
+    border-image: url() space;
+    border-image: url() 50 space;
+    border-image: url() 50 round stretch;
+    border-image: url() 50 repeat;
+}

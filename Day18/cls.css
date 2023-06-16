@@ -1,0 +1,123 @@
+/* a{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 30px;
+    background-color: brown;
+    color: yellow;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: purple;
+}
+input:focus{
+    background-color: blue;
+}
+button:focus{
+    background-color: aqua;
+}
+ul li{
+    /* list-style-type: upper-alpha; */
+    /* list-style-image: image url here;
+    list-style-image: outside;
+    list-style-position: inside; */
+/* }
+li span{
+    color: darkorange;
+}
+li{
+    color: darkblue;
+}*/ 
+
+/* p::first-line{
+    font-size: 67px;
+    color: red;
+}
+p::first-letter{
+    font-weight: bolder;
+    font-size: 100px;
+    color: black;
+}
+.bb::first-letter{
+    color: darksalmon;
+}
+.bb::first-line{
+    color: aqua;
+}
+h1::before{
+    content: url(image line);
+}
+h1::after{
+    content: url();
+}
+
+/* this will select ul */
+/* ::marker{
+    color: chartreuse;
+    font-size: 50px;
+} */
+/* if we select something the clor wil change */
+/* ::selection{
+    color: black;
+    background-color: blueviolet;
+}
+
+::placeholder{
+    color: chocolate;
+} */ 
+
+/* table,th,td{
+    border: 2px solid red;
+    border-spacing: 10px;
+    empty-cells: show;
+    empty-cells: hide;
+    border-collapse: collapse;
+    border-collapse: separate;
+} */
+
+caption{
+    color: brown;
+    text-align: right;
+    font-size: large;
+    caption-side: bottom;
+}
+th,td{
+    padding: 5px;
+}
+th{
+    height: 10px;
+    text-align: left;
+    text-align: justify;
+    background-color: chartreuse;
+}
+td{
+    height: 18px;
+    text-align: center;
+    text-align: left;
+    vertical-align: ;
+}
+tr:hover{
+    background-color: chartreuse;
+}
+tr:first-child{
+    background-color: aqua;
+}
+tr:last-child{
+    background-color: blue;
+}
+tr:nth-child(4){
+    background-color: maroon;
+}
+tr:hover:nth-child(5){
+    background-color: crimson;
+}
+tr:nth-child(even){
+    background-color: darkblue;
+}
+tr:nth-child(odd){
+    background-color: deeppink;
+}
+
