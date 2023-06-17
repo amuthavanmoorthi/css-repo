@@ -55,28 +55,28 @@ h1::after{
 }
 
 /* this will select ul */
-/* ::marker{
+ ::marker{
     color: chartreuse;
     font-size: 50px;
-} */
-/* if we select something the clor wil change */
-/* ::selection{
+} 
+ if we select something the clor wil change 
+ ::selection{
     color: black;
     background-color: blueviolet;
 }
 
 ::placeholder{
     color: chocolate;
-} */ 
+}
 
-/* table,th,td{
+table,th,td{
     border: 2px solid red;
     border-spacing: 10px;
     empty-cells: show;
     empty-cells: hide;
     border-collapse: collapse;
     border-collapse: separate;
-} */
+}
 
 caption{
     color: brown;
