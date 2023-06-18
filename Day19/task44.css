@@ -1,0 +1,56 @@
+.head_one{
+    font-family: 'Arvo', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Noto Sans SignWriting', sans-serif;
+
+
+}
+
+.head{
+    font-family: 'Anton', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Noto Sans SignWriting', sans-serif;
+
+margin-bottom: -50px;
+margin-left: 5px;
+}
+.small_boxes{
+    display: flex;
+    margin-top: 50px;
+    height: 210px;
+    margin-left: 100px;
+}
+.two{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+h2{
+    font-weight: bolder;
+    font-size: 70px;
+}
+button{
+    padding: 10px 20px 10px;
+    margin-left: 300px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.box1{
+    background-color: rgb(210, 60, 5);
+    border: 2px solid rgb(57, 0, 111);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 100px;
+    padding:10px 30px
+}
+.doctor{
+    margin-top: -30px; 
+    position: absolute;
+    top: 80px;
+    right: 0;
+    margin-right: 0px;
+    height: 400px;
+    /* border: 3px solid #73AD21; */
+}
