@@ -1,0 +1,63 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(227, 199, 199);
+    transform: scale(2);
+
+    transition: opacity 5s;
+    transition: transform 5s;
+    
+    color: bisque;
+
+transform: skew(90deg);
+transform: skewX(30deg);
+transform: skewY(30deg);
+
+transform: skew(20deg), translate(34deg), scale(20px), rotate(20deg);
+
+animation-duration: 5s;
+
+transition-timing-function: ease-in-out;
+
+
+}
+h1{
+    transform: scale(2);
+    transform: scale3d();
+    transform: scaleX();
+
+    transform: rotate(90deg);
+    transform: rotate(-60deg);
+    transform: rotateX(90deg)
+
+}
+
+:hover{
+    transform: translate(200px);
+    transform: translateX(100px);
+    transform: translate(200px 200px);
+
+}
+
+div{
+    transition: border 5s, font-size 3s,;
+}
+
+div:hover{
+    border: 25px solid red;
+    font-size: 100px;
+}
+
+@keyframes myanimation{
+    0%{background-color: black;}
+    25%{background-color: brown;}
+    50%{background-color: #fff;}
+}
+div:hover{
+    animation : myanimation; 10s;
+}
+
+@keyframes main {
+    25%{position: relative; transform: translate(20px);}
+    100%{position: relative; transform: translate(400px);}
+}

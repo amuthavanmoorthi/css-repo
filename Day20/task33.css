@@ -1,0 +1,33 @@
+body{
+    background-color: chocolate;
+}
+.sim_div{
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 300px;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-right: 40px;
+    transform: rotate(-20deg);
+    border-radius: 20px;
+    margin-left: 340px;
+    margin-top: 130px;
+}
+.sim_div2{
+    background-color: white;
+    color: black;
+    height: 550px;
+    width: 320px;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 30px;  
+    transform: rotate(20deg);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.head_div{
+    display: flex;
+    margin-left: 80px;
+}

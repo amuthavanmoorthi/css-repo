@@ -1,0 +1,24 @@
+.box1{
+    background-color: black;
+    color: white;
+    width: 300px;
+    box-shadow: 3px 10px yellow;
+}
+.box2{
+    background-color: black;
+    color: white;
+    width: 300px;
+    box-shadow: 5px 10px red, 0px 10px red;
+}
+.box3{
+    background-color: black;
+    color: white;
+    width: 300px;
+    box-shadow: -7px -7px green, 7px 7px red;
+}
+.div4{
+    padding: 10px;
+    width: 300px;
+    border: 2px solid;
+    box-shadow: inset 3px 3px 10px 1px black;
+}
