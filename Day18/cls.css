@@ -1,4 +1,4 @@
-/* a{
+a{
     color: blueviolet;
     text-decoration: none;
 }
@@ -20,19 +20,19 @@ button:focus{
     background-color: aqua;
 }
 ul li{
-    /* list-style-type: upper-alpha; */
-    /* list-style-image: image url here;
+    list-style-type: upper-alpha;
+    list-style-image: image url here;
     list-style-image: outside;
-    list-style-position: inside; */
-/* }
-li span{
+    list-style-position: inside; 
+
+}li span{
     color: darkorange;
 }
 li{
     color: darkblue;
 }*/ 
 
-/* p::first-line{
+p::first-line{
     font-size: 67px;
     color: red;
 }
