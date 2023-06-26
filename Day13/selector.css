@@ -1,21 +1,19 @@
-/* This is universal selector */
+This is universal selector
 
-/* *{
+*{
     color: azure;
     background-color: black;
-} */
+}
 
 /* This is element selector */
-
-/* h1{
+ h1{
     color: black;
 }
 
 /* This is grouping */
-
-/* h1,h2,p{
+ h1,h2,p{
     color: ;
-}  */
+}  
 
 /* This is class */
  .welcome{
@@ -23,9 +21,9 @@
 } 
 
 /* This is id */
-/* #welcome{
+ #welcome{
     color: aqua;
-} */
+} 
 
 /* We cannot give multiple id  */
 

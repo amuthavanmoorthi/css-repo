@@ -6,12 +6,12 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
 }
-/* h2{
+h2{
     font-family: inherit;
     color: aqua;
     font-size: 10vh;
     font-size: 10vw;
-} */
+} 
 h1{
     color: inherit;
     color:blue
